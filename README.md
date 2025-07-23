@@ -24,6 +24,8 @@ A web-based Flask application that detects potholes in road images using the YOL
 ---
 
 ## 📁 Project Structure
+
+
 Pothole-Detection-System-using-YOLO-Tiny-v4/
 │
 ├── app.py # Main Flask app
