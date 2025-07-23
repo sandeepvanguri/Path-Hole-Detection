@@ -26,15 +26,15 @@ A web-based Flask application that detects potholes in road images using the YOL
 ## 📁 Project Structure
 Pothole-Detection-System-using-YOLO-Tiny-v4/
 │
-├── app.py
-├── README.md
-├── uploads/                    # Auto-created folder for uploaded images
+├── app.py # Main Flask app
+├── uploads/ # Folder for uploaded images (auto-created)
 ├── utils/
-│   ├── yolov4_tiny.cfg         # YOLO model config
-│   ├── yolov4_tiny.weights     # YOLO model weights
-│   └── obj.names               # Class labels (e.g., "pothole")
-└── templates/
-    └── index.html              # HTML frontend
+│ ├── yolov4_tiny.cfg # YOLOv4-Tiny config file
+│ ├── yolov4_tiny.weights # YOLOv4-Tiny trained weights
+│ └── obj.names # Class name file (e.g., 'pothole')
+├── templates/
+│ └── index.html # Frontend HTML page
+└── README.md # This file
 
 ## For Running the app
 python app.py
